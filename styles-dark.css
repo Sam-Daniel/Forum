@@ -1,0 +1,210 @@
+body {
+    background-color: #4E4E4E;
+    font-family: Arial;
+    text-align: center;         /* make sure IE centers the page too */
+}
+ 
+#wrapper {
+    width: 900px;
+    margin: 0 auto;             /* center the page */
+}
+ 
+#content {
+    background-color: #fff;
+    float: left;
+    padding: 20px 30px;
+    text-align: left;
+    border-radius: 20px;
+    width: 100%;                /* fill up the entire div */
+}
+ 
+
+#menu {
+    float: left;
+    padding: 20px 30px;
+    width: 100%;
+}
+ 
+#menu a:hover {
+    background-color: #009FC1;
+}
+ 
+ 
+#footer {
+    clear: both;
+}
+ 
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+}
+ 
+table a {
+    color: #000;
+}
+ 
+th {
+    background-color: #4caf50;;
+    text-align: center;
+    color: #F0F0F0;
+}
+
+ 
+td, th, tr {
+    padding: 10px;
+        border: 2px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+ 
+/* Begin font styles */
+h1, #footer {
+    font-family: Arial;
+    color: #F1F3F1;
+}
+ 
+h3 {margin: 0; padding: 0;}
+ 
+/* Menu styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    color: white;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid;
+}
+
+ul .userbar-tekst {
+    background-color: grey;
+}
+
+ul .userbar, .userbar-tekst {
+    border-right: none;
+    border-left: 1px solid;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li p {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+}
+
+li a:hover {
+    background-color: #fff;
+}
+
+.userbar, .userbar-tekst {
+    float: right;
+}
+
+ 
+.leftpart {
+    width: 70%;
+}
+ 
+.rightpart {
+    width: 30%;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+ 
+
+form {
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 20px 20px 50px 20px;
+}
+
+.adminForm {
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0;
+    float: left;
+}
+
+input[type=text], input[type=password], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+/*
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+*/
+
+input[type=button], [type=submit]{
+    min-width: 100px;
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 5px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: left;
+}
+
+input[type=submit]:hover, [type=button]:hover {
+    background-color: #45a049;
+}
+

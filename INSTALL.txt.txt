@@ -1,0 +1,23 @@
+1. prosjekt6065.sql er et SQL-skript som setter inn
+ database, tabeller, triggere, prosedyrer og testdata
+
+2. PROSJEKT.docx er beskrivelse av applikasjonen, databasen
+ og funksjonalitet. 
+
+3. ER_DIAGRAM.jpg og HTML_MOCKUP.jpg (inkludert i PROSJEKT.docx)
+ viser oppbyggingen av databasen og skisse av forumet, 
+ respektivt
+
+4. Brukere for innlogging i applikasjonen
+
+Brukernavn | Passord
+_____________________
+
+Anne       | passord
+
+Per        | passord
+
+admin*     | admin
+_____________________
+
+*har adminrettigheter
